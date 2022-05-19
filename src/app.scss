@@ -1,0 +1,39 @@
+@import 'node_modules/@devoinc/applications-builder/styles/all.scss';
+@import 'node_modules/@devoinc/applications-builder/styles/themes/dark/all.scss';
+@import 'node_modules/@devoinc/applications-builder/styles/themes/light/all.scss';
+
+#section11 .lt-vapp-widget-graphic,
+#section12 .lt-vapp-widget-graphic {
+  height: auto;
+  min-height: 100px;
+}
+
+#section11 .lt-vapp-widget-graphic ul {
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  #section11 .lt-vapp-widget-graphic ul li:nth-child(3) {
+    font-weight: bold;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #section11 .lt-vapp-widget-graphic ul li:nth-child(2) {
+    font-weight: bold;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #section11 .lt-vapp-widget-graphic ul li:nth-child(1) {
+    font-weight: bold;
+    font-size: 18px;
+  }
+}
+
+.varemo-options {
+  min-width: 49%;
+  display: inline-block;
+}

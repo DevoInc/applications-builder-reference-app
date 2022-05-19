@@ -1,0 +1,4504 @@
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+
+<div class="lt-vapp theme-light collapsible">
+
+  <header class="lt-vapp-tv-header">
+    <h1 class="lt-vapp-company_logo"></h1>
+    <h2  class="lt-vapp-application_name">Name of the application</h2>
+    <span>&nbsp;/&nbsp;</span>
+    <h3 class="lt-vapp-application_tab">Name of the current Tab</h3>
+    <span>&nbsp;/&nbsp;</span>
+    <h4 class="lt-vapp-application_section">Name of the current Section</h4>
+    <p class="timeDetail">
+      <span class="appsettingsfromId">FROM:</span> <span id="calfrom"></span>
+      <span class="appsettingstoId">TO:</span> <span id="calto"></span>
+    </p>
+    <div class="lt-vapp-tv-close lticon-exit_close clickable"></div>
+  </header>
+
+  <header class="lt-vapp-header no-header">
+    <div class="lt-vapp-header-inner">
+      <h1 class="lt-vapp-company_logo"></h1>
+      <h2  class="lt-vapp-application_name">${ __("Application Name") }</h2>
+    </div>
+    <figure class="lt-vapp-logtrust-powered">
+      <figcaption> Powered by </figcaption>
+      <span class="lticon-logo_full"></span>
+    </figure>
+  </header>
+
+  <nav class="lt-vapp-menu">
+
+    <ul class="lt-vapp-menu-main">
+      <li main="main1">
+        <p class="lt-vapp-menu-item-name">
+          <i class="lticon-analytics_presentation_statistics_graph"></i>
+          <span>${__("TAB 1")}</span>
+        </p>
+        <nav class="lt-vapp-menu-scroll">
+          <p class="lt-vapp-menu-scroll-titles">
+            <strong>${__("Quick access")}</strong>
+            <span>${__("Scroll to")}</span>
+          </p>
+          <ul>
+            <li section="section11">${__("Section 11")}</li>
+            <li section="section12">${__("Section 12")}</li>
+          </ul>
+        </nav>
+      </li>
+      <li main="main2">
+        <p class="lt-vapp-menu-item-name">
+          <i class="lticon-analytics_presentation_statistics_graph"></i>
+          <span>${__("TAB 2")}</span>
+        </p>
+        <nav class="lt-vapp-menu-scroll">
+          <p class="lt-vapp-menu-scroll-titles">
+            <strong>${__("Quick access")}</strong>
+            <span>${__("Scroll to")}</span>
+          </p>
+          <ul>
+            <li section="section21">${__("Section 1")}</li>
+          </ul>
+        </nav>
+      </li>
+      <li main="main3">
+        <p class="lt-vapp-menu-item-name">
+          <i class="lticon-analytics_presentation_statistics_graph"></i>
+          <span>${__("TAB 3")}</span>
+        </p>
+        <nav class="lt-vapp-menu-scroll">
+          <p class="lt-vapp-menu-scroll-titles">
+            <strong>${__("Quick access")}</strong>
+            <span>${__("Scroll to")}</span>
+          </p>
+          <ul>
+            <li section="section31">${__("Section 31")}</li>
+          </ul>
+        </nav>
+      </li>
+      <li main="main4">
+        <p class="lt-vapp-menu-item-name">
+          <i class="lticon-analytics_presentation_statistics_graph"></i>
+          <span>${__("TAB 4")}</span>
+        </p>
+        <nav class="lt-vapp-menu-scroll">
+          <p class="lt-vapp-menu-scroll-titles">
+            <strong>${__("Quick access")}</strong>
+            <span>${__("Scroll to")}</span>
+          </p>
+          <ul>
+            <li section="section41">${__("Section 1")}</li>
+          </ul>
+        </nav>
+      </li>
+      <li main="main5">
+        <p class="lt-vapp-menu-item-name">
+          <i class="lticon-analytics_presentation_statistics_graph"></i>
+          <span>${__("TAB 5")}</span>
+        </p>
+        <nav class="lt-vapp-menu-scroll">
+          <p class="lt-vapp-menu-scroll-titles">
+            <strong>${__("Quick access")}</strong>
+            <span>${__("Scroll to")}</span>
+          </p>
+          <ul>
+            <li section="section51">${__("Section 1")}</li>
+          </ul>
+        </nav>
+      </li>
+      <li main="main6">
+        <p class="lt-vapp-menu-item-name">
+          <i class="lticon-analytics_presentation_statistics_graph"></i>
+          <span>${__("TAB 6")}</span>
+        </p>
+        <nav class="lt-vapp-menu-scroll">
+          <p class="lt-vapp-menu-scroll-titles">
+            <strong>${__("Quick access")}</strong>
+            <span>${__("Scroll to")}</span>
+          </p>
+          <ul>
+            <li section="section61">${__("Section 1")}</li>
+          </ul>
+        </nav>
+      </li>
+      <li main="main7">
+        <p class="lt-vapp-menu-item-name">
+          <i class="lticon-analytics_presentation_statistics_graph"></i>
+          <span>${__("TAB 7")}</span>
+        </p>
+        <nav class="lt-vapp-menu-scroll">
+          <p class="lt-vapp-menu-scroll-titles">
+            <strong>${__("Quick access")}</strong>
+            <span>${__("Scroll to")}</span>
+          </p>
+          <ul>
+            <li section="section71">${__("Section 1")}</li>
+          </ul>
+        </nav>
+      </li>
+      <li main="main8">
+        <p class="lt-vapp-menu-item-name">
+          <i class="lticon-analytics_presentation_statistics_graph"></i>
+          <span>${__("TAB 8")}</span>
+        </p>
+        <nav class="lt-vapp-menu-scroll">
+          <p class="lt-vapp-menu-scroll-titles">
+            <strong>${__("Quick access")}</strong>
+            <span>${__("Scroll to")}</span>
+          </p>
+          <ul>
+            <li section="section81">${__("Section 1")}</li>
+          </ul>
+        </nav>
+      </li>
+      <li main="main9">
+        <p class="lt-vapp-menu-item-name">
+          <i class="lticon-analytics_presentation_statistics_graph"></i>
+          <span>${__("TAB 9")}</span>
+        </p>
+        <nav class="lt-vapp-menu-scroll">
+          <p class="lt-vapp-menu-scroll-titles">
+            <strong>${__("Quick access")}</strong>
+            <span>${__("Scroll to")}</span>
+          </p>
+          <ul>
+            <li section="section91">${__("Section 1")}</li>
+          </ul>
+        </nav>
+      </li>
+      <li main="main10">
+        <p class="lt-vapp-menu-item-name">
+          <i class="lticon-analytics_presentation_statistics_graph"></i>
+          <span>${__("TAB 10")}</span>
+        </p>
+        <nav class="lt-vapp-menu-scroll">
+          <p class="lt-vapp-menu-scroll-titles">
+            <strong>${__("Quick access")}</strong>
+            <span>${__("Scroll to")}</span>
+          </p>
+          <ul>
+            <li section="section101">${__("Section 1")}</li>
+          </ul>
+        </nav>
+      </li>
+    </ul>
+
+    <ul class="lt-vapp-menu-preferences">
+      <li class="lt-vapp-tv-mode" title="TV Mode">
+        <span class="lticon-tv_televison_movie_news"></span>
+      </li>
+      <li class="lt-vapp-capture-button" title="Capture app">
+        <span class="lticon-polaroid_picture_image_photo"></span>
+      </li>
+      <li class="lt-vapp-options-button va-menu-trigger" title="General settings">
+        <span class="lticon-settings_gear_preferences"></span>
+      </li>
+    </ul>
+
+  </nav>
+
+  <!-- lt-vapp-config -->
+  <!-- ===================================================================== -->
+
+  <nav class="lt-vapp-config closed">
+    <p class="lt-vapp-config-bar">
+      <i class="lt-vapp-config-close LtAppIcon-close2"></i>
+      <span>${__("Close")}</span>
+    </p>
+
+    <h4>
+      <i class="lticon-settings_gear_preferences"></i>
+      <span>${__("Settings")}</span>
+    </h4>
+
+    <div class="lt-vapp-config-form-wrapper">
+      <form class="lt-form under-label">
+        <div class="lt-form-column-wrapper">
+          <div class="lt-form-column">
+            <h3 class="lt-form-title">${__("Visual Settings")}</h3>
+            <fieldset class="lt-form-group">
+              <div class="lt-form-field">
+                <label>${__("Theme")}</label>
+                <select id="theme">
+                  <option value="theme-dark">${__("Dark")}</option>
+                  <option value="theme-light" >${__("Light")}</option>
+                </select>
+              </div>
+              <div class="lt-form-field">
+                <label>${__("Sizes")}</label>
+                <select id="titleSize">
+                  <option value="small-headers">${__("Small")}</option>
+                  <option value="" selected>${__("Normal")}</option>
+                  <option value="big-headers">${__("Big")}</option>
+                </select>
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="lt-form-column">
+            <fieldset class="lt-form-group">
+              <div class="lt-form-field-inline">
+                <input type="checkbox" id="displayCompact">
+                <label for="displayCompact">
+                  ${__("Compact view")}
+                </label>
+              </div>
+
+              <div class="lt-form-field-inline">
+                <input type="checkbox" id="displayBordered">
+                <label for="displayBordered">
+                  ${__("Bordered")}
+                </label>
+              </div>
+
+              <div class="lt-form-field-inline">
+                <input type="checkbox" id="displayCollapsibles" checked>
+                <label for="displayCollapsibles">
+                  ${__("Collapsible")}
+                </label>
+              </div>
+
+              <div class="lt-form-field-inline">
+                <input type="checkbox" id="displayDescription" checked>
+                <label for="displayDescription">
+                  ${__("Descriptions")}
+                </label>
+              </div>
+
+              <div class="lt-form-field-inline">
+                <input type="checkbox" id="displayMenuWidgetsExpanded" checked>
+                <label for="displayMenuWidgetsExpanded">
+                  ${__("Options visible")}
+                </label>
+              </div>
+            </fieldset>
+          </div>
+        </div>
+
+        <h3 class="lt-form-title">${__("Advanced settings")}</h3>
+        <div class="lt-form-column-wrapper" id="date-range-picker"></div>
+
+      </form>
+    </div>
+
+    <div class="lt-vapp-config-footer">
+      <button class="lt-vapp-config-close grey">${__("CANCEL")}</button>
+      <button class="lt-vapp-config-update">${__("UPDATE")}</button>
+    </div>
+  </nav>
+
+  <!-- Main 1 -->
+  <!-- ===================================================================== -->
+  <main class="lt-vapp-main" id="main1">
+
+    <!-- Section 11 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section11">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 11")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 111 -->
+      <article class="lt-vapp-widget sm-8 md-6 lg-2 tv-12" id="w111">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 111")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 112 -->
+      <article class="lt-vapp-widget sm-4 md-6 lg-2 tv-12" id="w112">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 112")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 113 -->
+      <article class="lt-vapp-widget sm-3 md-4 lg-2 tv-12" id="w113">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 113")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 114 -->
+      <article class="lt-vapp-widget sm-6 md-5 lg-3 tv-12" id="w114">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 114")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 115 -->
+      <article class="lt-vapp-widget sm-3 md-3 lg-3 tv-12" id="w115">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 115")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 116 -->
+      <article class="lt-vapp-widget sm-8 md-8 lg-4 tv-12" id="w116">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 116")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 117 -->
+      <article class="lt-vapp-widget sm-2 md-4 lg-5 tv-12" id="w117">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 117")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 118 -->
+      <article class="lt-vapp-widget sm-2 md-12 lg-3 tv-12" id="w118">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 118")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+    </section>
+
+    <!-- Section 12 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section12">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 12")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <article class="lt-vapp-widget sm-2 md-2 lg-2 tv-12" id="w121">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 121")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <article class="lt-vapp-widget sm-2 md-2 lg-2 tv-12" id="w122">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 122")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <article class="lt-vapp-widget sm-2 md-2 lg-2 tv-12" id="w123">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 123")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding" id="w123-choicepicker"></div>
+      </article>
+
+      <article class="lt-vapp-widget sm-2 md-2 lg-2 tv-12" id="w124">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 124")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <article class="lt-vapp-widget sm-2 md-2 lg-2 tv-12" id="w125">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 125")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <article class="lt-vapp-widget sm-2 md-2 lg-2 tv-12" id="w126">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 126")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <article class="lt-vapp-widget sm-2 md-2 lg-2 tv-12" id="w127">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 127")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <article class="lt-vapp-widget sm-2 md-2 lg-2 tv-12" id="w128">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 128")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <article class="lt-vapp-widget sm-3 md-3 lg-3 tv-12" id="w129">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 129")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <article class="lt-vapp-widget sm-5 md-5 lg-5 tv-12" id="w130">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget w130")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+    </section>
+
+    <!-- Section 13 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section13">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 13")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <article class="lt-vapp-widget sm-2 md-2 lg-2 tv-12" id="w131">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 131")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <article class="lt-vapp-widget sm-2 md-2 lg-2 tv-12" id="w132">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 132")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <article class="lt-vapp-widget sm-2 md-2 lg-2 tv-12" id="w133">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 133")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <article class="lt-vapp-widget sm-2 md-2 lg-2 tv-12" id="w134">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 134")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+    </section>
+
+  </main>
+
+  <!-- Main 2 -->
+  <!-- ===================================================================== -->
+  <main class="lt-vapp-main" id="main2">
+
+    <!-- Section 21 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section21">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 21")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-6" id="w211">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 1")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-6" id="w212">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setYscaleType: </label>
+                <input type="checkbox" id="w212-setYscaleType">
+              </div>
+              <div>
+                <label>setFixedData: </label>
+                <input type="checkbox" id="w212-setFixedData">
+              </div>
+              <div>
+                <label>setGrouping: </label>
+                <input type="checkbox" id="w212-setGrouping">
+              </div>
+              <div>
+                <label>setToBytes: </label>
+                <input type="checkbox" id="w212-setToBytes">
+              </div>
+              <div>
+                <label>sharedFormatter: </label>
+                <input type="checkbox" id="w212-sharedFormatter">
+              </div>
+              <div>
+                <label>setAccumulated: </label>
+                <input type="checkbox" id="w212-setAccumulated">
+              </div>
+              <div>
+                <label>setDiscardMethod: </label>
+                <input type="checkbox" id="w212-setDiscardMethod">
+              </div>
+              <div>
+                <label>setShowAvgLine: </label>
+                <input type="checkbox" id="w212-setShowAvgLine">
+              </div>
+              <div>
+                <label>setXAxisFormatter: </label>
+                <input type="checkbox" id="w212-setXAxisFormatter">
+              </div>
+              <div>
+                <label>setLegend: </label>
+                <input type="checkbox" id="w212-setLegend">
+              </div>
+              <div>
+                <label>setYAxisLabelsFormatter: </label>
+                <input type="string" id="w212-setYAxisLabelsFormatter" placeholder="{value} mil cosas">
+              </div>
+              <div>
+                <label>setYAxisTitle: </label>
+                <input type="string" id="w212-setYAxisTitle" value="" placeholder="cosas">
+              </div>
+              <div>
+                <label>setDiscardMode: </label>
+                <select id="w212-setDiscardMode">
+                  <option value="" selected></option>
+                  <option value="plotBand">plotBand</option>
+                  <option value="extremes">extremes</option>
+                </select>
+              </div>
+              <div>
+                <label>setRegressionLine: </label>
+                <select id="w212-setRegressionLine">
+                  <option value="" selected></option>
+                  <option value="linear">linear</option>
+                  <option value="polynomial">polynomial</option>
+                  <option value="logarithmic">logarithmic</option>
+                  <option value="loess">loess</option>
+                </select>
+              </div>
+              <div>
+                <label>setFormat: </label>
+                <input type="string" id="w212-setFormat" placeholder="##.###.###.##">
+              </div>
+              <button type="button" id="w212-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="lt-vapp-section" id="section22">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 21")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-6" id="w221">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 2")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-6" id="w222">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setYscaleType: </label>
+                <input type="checkbox" id="w222-setYscaleType">
+              </div>
+              <div>
+                <label>setToBytes: </label>
+                <input type="checkbox" id="w222-setToBytes">
+              </div>
+              <div>
+                <label>sharedFormatter: </label>
+                <input type="checkbox" id="w222-sharedFormatter">
+              </div>
+              <div>
+                <label>setTop: </label>
+                <input type="checkbox" id="w222-setTop">
+              </div>
+              <div>
+                <label>setAccumulated: </label>
+                <input type="checkbox" id="w222-setAccumulated">
+              </div>
+              <div>
+                <label>setDiscardMethod: </label>
+                <input type="checkbox" id="w222-setDiscardMethod">
+              </div>
+              <div>
+                <label>setShowAvgLine: </label>
+                <input type="checkbox" id="w222-setShowAvgLine">
+              </div>
+              <div>
+                <label>setXAxisFormatter: </label>
+                <input type="checkbox" id="w222-setXAxisFormatter">
+              </div>
+              <div>
+                <label>setLegend: </label>
+                <input type="checkbox" id="w222-setLegend">
+              </div>
+              <div>
+                <label>setHighlightMaxMin: </label>
+                <input type="checkbox" id="w222-setHighlightMaxMin">
+              </div>
+              <div>
+                <label>setForceFirstElement: </label>
+                <input type="checkbox" id="w222-setForceFirstElement">
+              </div>
+              <div>
+                <label>setForceLastElement: </label>
+                <input type="checkbox" id="w222-setForceLastElement">
+              </div>
+              <div>
+                <label>setYAxisLabelsFormatter: </label>
+                <input type="string" id="w222-setYAxisLabelsFormatter" placeholder="{value} mil cosas">
+              </div>
+              <div>
+                <label>setYAxisTitle: </label>
+                <input type="string" id="w222-setYAxisTitle" value="" placeholder="cosas">
+              </div>
+              <div>
+                <label>setDiscardMode: </label>
+                <select id="w222-setDiscardMode">
+                  <option value="" selected></option>
+                  <option value="plotBand">plotBand</option>
+                  <option value="extremes">extremes</option>
+                </select>
+              </div>
+              <div>
+                <label>setRegressionLine: </label>
+                <select id="w222-setRegressionLine">
+                  <option value="" selected></option>
+                  <option value="linear">linear</option>
+                  <option value="polynomial">polynomial</option>
+                  <option value="logarithmic">logarithmic</option>
+                  <option value="loess">loess</option>
+                </select>
+              </div>
+              <div>
+                <label>setFormat: </label>
+                <input type="string" id="w222-setFormat" placeholder="##.###.###.##">
+              </div>
+              <button type="button" id="w222-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section class="lt-vapp-section" id="section23">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 21")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-6" id="w231">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("Widget 2")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-6" id="w232">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setYscaleType: </label>
+                <input type="checkbox" id="w232-setYscaleType">
+              </div>
+              <div>
+                <label>setFixedData: </label>
+                <input type="checkbox" id="w232-setFixedData">
+              </div>
+              <div>
+                <label>setGrouping: </label>
+                <input type="checkbox" id="w232-setGrouping">
+              </div>
+              <div>
+                <label>setToBytes: </label>
+                <input type="checkbox" id="w232-setToBytes">
+              </div>
+              <div>
+                <label>sharedFormatter: </label>
+                <input type="checkbox" id="w232-sharedFormatter">
+              </div>
+              <div>
+                <label>setTop: </label>
+                <input type="checkbox" id="w232-setTop">
+              </div>
+              <div>
+                <label>setAccumulated: </label>
+                <input type="checkbox" id="w232-setAccumulated">
+              </div>
+              <div>
+                <label>setDiscardMethod: </label>
+                <input type="checkbox" id="w232-setDiscardMethod">
+              </div>
+              <div>
+                <label>setShowAvgLine: </label>
+                <input type="checkbox" id="w232-setShowAvgLine">
+              </div>
+              <div>
+                <label>setXAxisFormatter: </label>
+                <input type="checkbox" id="w232-setXAxisFormatter">
+              </div>
+              <div>
+                <label>setLegend: </label>
+                <input type="checkbox" id="w232-setLegend">
+              </div>
+              <div>
+                <label>setYAxisLabelsFormatter: </label>
+                <input type="string" id="w232-setYAxisLabelsFormatter" placeholder="{value} mil cosas">
+              </div>
+              <div>
+                <label>setYAxisTitle: </label>
+                <input type="string" id="w232-setYAxisTitle" value="" placeholder="cosas">
+              </div>
+              <div>
+                <label>setDiscardMode: </label>
+                <select id="w232-setDiscardMode">
+                  <option value="" selected></option>
+                  <option value="plotBand">plotBand</option>
+                  <option value="extremes">extremes</option>
+                </select>
+              </div>
+              <div>
+                <label>setRegressionLine: </label>
+                <select id="w232-setRegressionLine">
+                  <option value="" selected></option>
+                  <option value="linear">linear</option>
+                  <option value="exponential">exponential</option>
+                  <option value="polynomial">polynomial</option>
+                  <option value="logarithmic">logarithmic</option>
+                  <option value="loess">loess</option>
+                </select>
+              </div>
+              <div>
+                <label>setFormat: </label>
+                <input type="string" id="w232-setFormat" placeholder="##.###.###.##">
+              </div>
+              <button type="button" id="w232-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+
+  <!-- Main 3 -->
+  <!-- ===================================================================== -->
+  <main class="lt-vapp-main" id="main3">
+
+    <!-- Section 31 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section31">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 31")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 311 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w311">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("WIDGET")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding" style="height: 750px;"></div>
+      </article>
+
+      <!-- WIDGET 312 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-6" id="w312">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setMapTypeControl: </label>
+                <input type="checkbox" id="w312-setMapTypeControl">
+              </div>
+              <div>
+                <label>setMapTypeId: </label>
+                <select id="w312-setMapTypeId">
+                  <option value="roadmap" selected>${__("ROADMAP")}</option>
+                  <option value="satellite">${__("SATELLITE")}</option>
+                  <option value="hybrid">${__("HYBRID")}</option>
+                  <option value="terrain">${__("TERRAIN")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setRotateControl: </label>
+                <input type="checkbox" id="w312-setRotateControl">
+              </div>
+              <div>
+                <label>setScaleControl: </label>
+                <input type="checkbox" id="w312-setScaleControl">
+              </div>
+              <div>
+                <label>setStreetViewControl: </label>
+                <input type="checkbox" id="w312-setStreetViewControl">
+              </div>
+              <div>
+                <label>setZoomControl: </label>
+                <input type="checkbox" id="w312-setZoomControl">
+              </div>
+              <div>
+                <label>setGradient: </label>
+                <select id="w312-setGradient">
+                  <option value="0" selected>${__("0")}</option>
+                  <option value="1">${__("1")}</option>
+                  <option value="2">${__("2")}</option>
+                  <option value="3">${__("3")}</option>
+                  <option value="4">${__("4")}</option>
+                  <option value="5">${__("5")}</option>
+                  <option value="6">${__("6")}</option>
+                  <option value="7">${__("7")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setRadius: </label>
+                <input type="number" id="w312-setRadius" value="10" min="1" max="30">
+              </div>
+              <div>
+                <label>setOpacity: </label>
+                <input type="number" id="w312-setOpacity" value="0.5" max="1" min="0.1">
+              </div>
+              <div>
+                <label>setStyles: </label>
+                <select id="w312-setStyles">
+                  <option value="standard" selected>${__("STANDARD")}</option>
+                  <option value="dark">${__("DARK")}</option>
+                  <option value="night">${__("NIGHT")}</option>
+                  <option value="retro">${__("RETRO")}</option>
+                  <option value="silver">${__("SILVER")}</option>
+                  <option value="aubergine">${__("AUBERGINE")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setzoom: </label>
+                <input type="number" id="w312-setzoom" value="1" min="1" max="20">
+              </div>
+              <div>
+                <label>setCenter: </label>
+                <select id="w312-setCenter">
+                  <option value="madrid" selected>${__("MADRID")}</option>
+                  <option value="newyork">${__("NEW YORK")}</option>
+                  <option value="tokyo">${__("TOKYO")}</option>
+                  <option value="catIsland">${__("CAT ISLAND")}</option>
+                  <option value="myHouse">${__("MY HOUSE")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setDataOperation: </label>
+                <select id="w312-setDataOperation">
+                  <option value="none" selected>${__("NONE")}</option>
+                  <option value="log">${__("LOG")}</option>
+                  <option value="arctag">${__("ARCTAG")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setMapTypeControlOptions: </label>
+                <select id="w312-setMapTypeControlOptions">
+                  <option value="default" selected>${__("DEFAULT")}</option>
+                  <option value="alternative">${__("ALTERNATIVE")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setZoomControlOptions: </label>
+                <select id="w312-setZoomControlOptions">
+                  <option value="default" selected>${__("DEFAULT")}</option>
+                  <option value="alternative">${__("ALTERNATIVE")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setStreetViewControlOptions: </label>
+                <select id="w312-setStreetViewControlOptions">
+                  <option value="default" selected>${__("DEFAULT")}</option>
+                  <option value="alternative">${__("ALTERNATIVE")}</option>
+                </select>
+              </div>
+              <button type="button" id="w312-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Section 32 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section32">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 32")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 321 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w321">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("WIDGET")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 322 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-6" id="w322">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setMapTypeControl: </label>
+                <input type="checkbox" id="w322-setMapTypeControl">
+              </div>
+              <div>
+                <label>setMapTypeId: </label>
+                <select id="w322-setMapTypeId">
+                  <option value="roadmap" selected>${__("ROADMAP")}</option>
+                  <option value="satellite">${__("SATELLITE")}</option>
+                  <option value="hybrid">${__("HYBRID")}</option>
+                  <option value="terrain">${__("TERRAIN")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setScaleControl: </label>
+                <input type="checkbox" id="w322-setScaleControl">
+              </div>
+              <div>
+                <label>setStreetViewControl: </label>
+                <input type="checkbox" id="w322-setStreetViewControl">
+              </div>
+              <div>
+                <label>setZoomControl: </label>
+                <input type="checkbox" id="w322-setZoomControl">
+              </div>
+              <div>
+                <label>setPresetStyles: </label>
+                <select id="w322-setStyles">
+                  <option value="standard" selected>${__("STANDARD")}</option>
+                  <option value="dark">${__("DARK")}</option>
+                  <option value="night">${__("NIGHT")}</option>
+                  <option value="retro">${__("RETRO")}</option>
+                  <option value="silver">${__("SILVER")}</option>
+                  <option value="aubergine">${__("AUBERGINE")}</option>
+                </select>
+              </div>
+              <button type="button" id="w322-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Section 33 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section33">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 33")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 331 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w331">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("WIDGET")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 332 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-6" id="w332">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setTitle: </label>
+                <input type="text" id="w332-setTitle" placeholder="Type something...">
+              </div>
+              <div>
+                <label>setUnits: </label>
+                <input type="text" id="w332-setUnits" value="units">
+              </div>
+              <div>
+                <label>setVariable: </label>
+                <input type="text" id="w332-setVariable" value="Variable">
+              </div>
+              <div>
+                <label>setDiscardMethod: </label>
+                <select id="w332-setDiscardMethod">
+                  <option value="none" selected>${__("NONE")}</option>
+                  <option value="stdDev">${__("STD_DEV")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setDataOperation: </label>
+                <select id="w332-setDataOperation">
+                  <option value="linear" selected>${__("LINEAR")}</option>
+                  <option value="logarithmic">${__("LOG")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setScaleMinColor: </label>
+                <select id="w332-setScaleMinColor">
+                  <option value="#d37651" selected>${__("#d37651")}</option>
+                  <option value="#fdea6d">${__("#fdea6d")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setScaleMaxColor: </label>
+                <select id="w332-setScaleMaxColor">
+                  <option value="#9881d3" selected>${__("#9881d3")}</option>
+                  <option value="#c25d0c">${__("#c25d0c")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setStdDevMinColor: </label>
+                <select id="w332-setStdDevMinColor">
+                  <option value="#a83c21" selected>${__("#a83c21")}</option>
+                  <option value="#7cae2d">${__("#7cae2d")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setStdDevMaxColor: </label>
+                <select id="w332-setStdDevMaxColor">
+                  <option value="#987612" selected>${__("#987612")}</option>
+                  <option value="#b40000">${__("#b40000")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setDisplaySelectors: </label>
+                <input type="checkbox" id="w332-setDisplaySelectors">
+              </div>
+              <button type="button" id="w332-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Section 34 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section34">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 34")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 341 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w341">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("WIDGET")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 342 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-6" id="w342">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setMapTypeControl: </label>
+                <input type="checkbox" id="w342-setMapTypeControl">
+              </div>
+              <div>
+                <label>setMapTypeId: </label>
+                <select id="w342-setMapTypeId">
+                  <option value="roadmap" selected>${__("ROADMAP")}</option>
+                  <option value="satellite">${__("SATELLITE")}</option>
+                  <option value="hybrid">${__("HYBRID")}</option>
+                  <option value="terrain">${__("TERRAIN")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setRotateControl: </label>
+                <input type="checkbox" id="w342-setRotateControl">
+              </div>
+              <div>
+                <label>setScaleControl: </label>
+                <input type="checkbox" id="w342-setScaleControl">
+              </div>
+              <div>
+                <label>setStreetViewControl: </label>
+                <input type="checkbox" id="w342-setStreetViewControl">
+              </div>
+              <div>
+                <label>setZoomControl: </label>
+                <input type="checkbox" id="w342-setZoomControl">
+              </div>
+              <div>
+                <label>setDissipating: </label>
+                <input type="checkbox" id="w342-setDissipating">
+              </div>
+              <div>
+                <label>setGradient: </label>
+                <select id="w342-setGradient">
+                  <option value="0" selected>${__("0")}</option>
+                  <option value="1">${__("1")}</option>
+                  <option value="2">${__("2")}</option>
+                  <option value="3">${__("3")}</option>
+                  <option value="4">${__("4")}</option>
+                  <option value="5">${__("5")}</option>
+                  <option value="6">${__("6")}</option>
+                  <option value="7">${__("7")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setRadius: </label>
+                <input type="number" id="w342-setRadius" value="10" min="1" max="30">
+              </div>
+              <div>
+                <label>setOpacity: </label>
+                <input type="number" id="w342-setOpacity" value="0.5" max="1" min="0.1">
+              </div>
+              <div>
+                <label>setStyles: </label>
+                <select id="w342-setStyles">
+                  <option value="standard" selected>${__("STANDARD")}</option>
+                  <option value="dark">${__("DARK")}</option>
+                  <option value="night">${__("NIGHT")}</option>
+                  <option value="retro">${__("RETRO")}</option>
+                  <option value="silver">${__("SILVER")}</option>
+                  <option value="aubergine">${__("AUBERGINE")}</option>
+                </select>
+              </div>
+            </fieldset>
+          </div>
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setzoom: </label>
+                <input type="number" id="w342-setzoom" value="1" min="1" max="20">
+              </div>
+              <div>
+                <label>setCenter: </label>
+                <select id="w342-setCenter">
+                  <option value="madrid" selected>${__("MADRID")}</option>
+                  <option value="newyork">${__("NEW YORK")}</option>
+                  <option value="tokyo">${__("TOKYO")}</option>
+                  <option value="catIsland">${__("CAT ISLAND")}</option>
+                  <option value="myHouse">${__("MY HOUSE")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setDataOperation: </label>
+                <select id="w342-setDataOperation">
+                  <option value="none" selected>${__("NONE")}</option>
+                  <option value="log">${__("LOG")}</option>
+                  <option value="arctag">${__("ARCTAG")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setScrollwheel: </label>
+                <input type="checkbox" id="w342-setScrollwheel">
+              </div>
+              <div>
+                <label>setMapTypeControlOptions: </label>
+                <select id="w342-setMapTypeControlOptions">
+                  <option value="default" selected>${__("DEFAULT")}</option>
+                  <option value="alternative">${__("ALTERNATIVE")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setZoomControlOptions: </label>
+                <select id="w342-setZoomControlOptions">
+                  <option value="default" selected>${__("DEFAULT")}</option>
+                  <option value="alternative">${__("ALTERNATIVE")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setStreetViewControlOptions: </label>
+                <select id="w342-setStreetViewControlOptions">
+                  <option value="default" selected>${__("DEFAULT")}</option>
+                  <option value="alternative">${__("ALTERNATIVE")}</option>
+                </select>
+              </div>
+              <button type="button" id="w342-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Section 35 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section35">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 35")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 351 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w351">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("WIDGET")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 352 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-6" id="w352">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setLabelsKeys: </label>
+                <input type="checkbox" id="w352-setLabelsKeys">
+              </div>
+              <div>
+                <label>setColorKey: </label>
+                <input type="checkbox" id="w352-setColorKey">
+              </div>
+              <div>
+                <label>setGradient: </label>
+                <input type="checkbox" id="w352-setGradient">
+              </div>
+              <div>
+                <label>setGradients: </label>
+                <input type="checkbox" id="w352-setGradients">
+              </div>
+              <div>
+                <label>setUseGradient: </label>
+                <input type="checkbox" id="w352-setUseGradient">
+              </div>
+              <div>
+                <label>setVisible: </label>
+                <input type="checkbox" checked id="w352-setVisible">
+              </div>
+              <div>
+                <label>setCustomStyle: </label>
+                <input type="checkbox" checked id="w352-setCustomStyle">
+              </div>
+              <div>
+                <label>setSortDescending: </label>
+                <input type="checkbox" checked id="w352-setSortDescending">
+              </div>
+              <div>
+                <label>setDefaultColor: </label>
+                <input type="checkbox" id="w352-setDefaultColor">
+              </div>
+              <div>
+                <label>setFitToBounds: </label>
+                <input type="checkbox" checked id="w352-setFitToBounds">
+              </div>
+              <div>
+                <label>setDataOperation: </label>
+                <input type="checkbox" id="w352-setDataOperation">
+              </div>
+              <div>
+                <label>setSkipLimit: </label>
+                <input type="checkbox" id="w352-setSkipLimit">
+              </div>
+              <div>
+                <label>setElementsLimit: </label>
+                <input type="checkbox" id="w352-setElementsLimit">
+              </div>
+              <div>
+                <label>setType: </label>
+                <input type="checkbox" id="w352-setType">
+              </div>
+              <button type="button" id="w352-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <!-- Main 4 -->
+  <!-- ===================================================================== -->
+  <main class="lt-vapp-main" id="main4">
+
+    <!-- Section 41 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section41">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 41")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 411 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w411">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("WIDGET")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+        <div id="w411-result"></div>
+      </article>
+
+      <!-- WIDGET 412 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-6" id="w412">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setLimit: </label>
+                <input type="number" id="w412-setLimit" value="0" min="0">
+              </div>
+              <div>
+                <label>setOrder: </label>
+                <select id="w412-setOrder">
+                  <option value='[0, "asc"]' selected>${__("EVENTDATE ASC")}</option>
+                  <option value='[2, "desc"]'>${__("COUNT DESC")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setLabels: </label>
+                <input type="checkbox" id="w412-setLabels">
+              </div>
+              <div>
+                <label>setRowClick: </label>
+                <input type="checkbox" id="w412-setRowClick">
+              </div>
+              <div>
+                <label>setDrawCallback: </label>
+                <input type="checkbox" id="w412-setDrawCallback">
+              </div>
+              <div>
+                <label>setDom: </label>
+                <input type="checkbox" id="w412-setDom">
+              </div>
+              <div>
+                <label>setColumnsOrder: </label>
+                <input type="checkbox" id="w412-setColumnsOrder">
+              </div>
+              <div>
+                <label>setLanguage: </label>
+                <input type="checkbox" id="w412-setLanguage">
+              </div>
+              <div>
+                <label>setScrollY: </label>
+                <input type="number" id="w412-setScrollY" value="0" min="50" max="400">
+              </div>
+              <div>
+                <label>setScrollX: </label>
+                <input type="checkbox" id="w412-setScrollX">
+              </div>
+              <div>
+                <label>setScrollCollapse: </label>
+                <input type="checkbox" id="w412-setScrollCollapse">
+              </div>
+              <div>
+                <label>setLengthChange: </label>
+                <input type="checkbox" id="w412-setLengthChange">
+              </div>
+              <div>
+                <label>setPageLength: </label>
+                <input type="number" id="w412-setPageLength" value="10" min="1" max="30">
+              </div>
+            </fieldset>
+          </div>
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setCreatedRow: </label>
+                <input type="checkbox" id="w412-setCreatedRow">
+              </div>
+              <div>
+                <label>setFilter: </label>
+                <input type="checkbox" id="w412-setFilter">
+              </div>
+              <div>
+                <label>setPaging: </label>
+                <input type="checkbox" id="w412-setPaging">
+              </div>
+              <div>
+                <label>setFooterInfo: </label>
+                <input type="checkbox" id="w412-setFooterInfo">
+              </div>
+              <div>
+                <label>setCustomClass: </label>
+                <input type="text" id="w412-setCustomClass" placeholder="Type some class name...">
+              </div>
+              <div>
+                <label>setColumnRenderers: </label>
+                <input type="checkbox" id="w412-setColumnRenderers">
+              </div>
+              <div>
+                <label>setToolTipColumns: </label>
+                <input type="checkbox" id="w412-setToolTipColumns">
+              </div>
+              <div>
+                <label>setNoWrapColumns: </label>
+                <input type="checkbox" id="w412-setNoWrapColumns">
+              </div>
+              <div>
+                <label>setArrayColumns: </label>
+                <input type="checkbox" id="w412-setArrayColumns">
+              </div>
+              <div>
+                <label>setPagingType: </label>
+                <select id="w412-setPagingType">
+                  <option value="numbers">${__("NUMBERS")}</option>
+                  <option value="simple">${__("SIMPLE")}</option>
+                  <option value="simple_numbers" selected>${__("SIMPLE NUMBERS")}</option>
+                  <option value="full">${__("FULL")}</option>
+                  <option value="full_numbers">${__("FULL NUMERS")}</option>
+                  <option value="first_last_numbers">${__("FIRST LAST NUMBERS")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setPagingInfo: </label>
+                <input type="checkbox" id="w412-setPagingInfo">
+              </div>
+              <button type="button" id="w412-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+  </main>
+
+  <!-- Main 5 -->
+  <!-- ===================================================================== -->
+  <main class="lt-vapp-main" id="main5">
+
+    <!-- Section 51 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section51">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 51")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 511 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-8 tv-12" id="w511">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("WIDGET")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding" style="height: 800px;"></div>
+      </article>
+
+      <!-- WIDGET 512 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-4 tv-4" id="w512">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setAttrs: </label>
+                <input type="checkbox" id="w512-setAttrs">
+              </div>
+              <div>
+                <label>setLinks: </label>
+                <input type="checkbox" id="w512-setLinks">
+              </div>
+              <div>
+                <label>setLinkWidthDeltaColumns: </label>
+                <input type="checkbox" id="w512-setLinkWidthDeltaColumns">
+              </div>
+              <div>
+                <label>setNodeSizesInitialMode: </label>
+                <select id="w512-setNodeSizesInitialMode">
+                  <optgroup label="All links">
+                    <option value="links-all-sum">Sum of all links</option>
+                    <option value="links-all-avg">Average of all links</option>
+                    <option value="links-all-max">Max of all links</option>
+                    <option value="links-all-min">Min of all links</option>
+                    <option value="links-all-flux">Flux value</option>
+                  </optgroup>
+                  <optgroup label="Incoming links">
+                    <option value="links-incoming-sum">
+                      Sum of incoming links
+                    </option>
+                    <option value="links-incoming-avg">
+                      Average of incoming links
+                    </option>
+                    <option value="links-incoming-max">
+                      Max of incoming links
+                    </option>
+                    <option value="links-incoming-min">
+                      Min of incoming links
+                    </option>
+                  </optgroup>
+                  <optgroup label="Outgoing links">
+                    <option value="links-outgoing-sum">
+                      Sum of outgoing links
+                    </option>
+                    <option value="links-outgoing-avg">
+                      Average of outgoing links
+                    </option>
+                    <option value="links-outgoing-max">
+                      Max of outgoing links
+                    </option>
+                    <option value="links-outgoing-min">
+                      Min of outgoing links
+                    </option>
+                  </optgroup>
+                  <optgroup label="Graph properties">
+                    <option value="graph-betweenness">Betweenness</option>
+                    <option value="graph-closeness">Closeness</option>
+                    <option value="graph-eigenCentrality">Eigencentrality</option>
+                    <option value="graph-pageRank">Page rank</option>
+                  </optgroup>
+                </select>
+              </div>
+              <button type="button" id="w512-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+  </main>
+
+  <!-- Main 6 -->
+  <!-- ===================================================================== -->
+  <main class="lt-vapp-main" id="main6">
+
+    <!-- Section 61 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section61">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 61")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 611 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w611">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("WIDGET")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 612 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w612">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setMargin: </label>
+                <input type="checkbox" id="w612-setMargin">
+              </div>
+              <div>
+                <label>setDataHeight: </label>
+                <input type="checkbox" id="w612-setDataHeight">
+              </div>
+              <div>
+                <label>setLineSpacing: </label>
+                <input type="checkbox" id="w612-setLineSpacing">
+              </div>
+              <div>
+                <label>setPaddingTopHeading: </label>
+                <input type="checkbox" id="w612-setPaddingTopHeading">
+              </div>
+              <div>
+                <label>setPaddingBottom: </label>
+                <input type="checkbox" id="w612-setPaddingBottom">
+              </div>
+              <div>
+                <label>setPaddingLeft: </label>
+                <input type="checkbox" id="w612-setPaddingLeft">
+              </div>
+              <div>
+                <label>setToolTipClass: </label>
+                <input type="checkbox" id="w612-setToolTipClass">
+              </div>
+              <div>
+                <label>setDateFormatter: </label>
+                <input type="checkbox" id="w612-setDateFormatter">
+              </div>
+              <div>
+                <label>setVertGridClass: </label>
+                <input type="checkbox" id="w612-setVertGridClass">
+              </div>
+              <div>
+                <label>setHorzGridClass: </label>
+                <input type="checkbox" id="w612-setHorzGridClass">
+              </div>
+              <div>
+                <label>setGTitleClass: </label>
+                <input type="checkbox" id="w612-setGTitleClass">
+              </div>
+              <div>
+                <label>setGAxisClass: </label>
+                <input type="checkbox" id="w612-setGAxisClass">
+              </div>
+              <div>
+                <label>setAxisClass: </label>
+                <input type="checkbox" id="w612-setAxisClass">
+              </div>
+              <div>
+                <label>setGDataClass: </label>
+                <input type="checkbox" id="w612-setGDataClass">
+              </div>
+              <div>
+                <label>setDatasetClass: </label>
+                <input type="checkbox" id="w612-setDatasetClass">
+              </div>
+              <div>
+                <label>setYTitleClass: </label>
+                <input type="checkbox" id="w612-setYTitleClass">
+              </div>
+              <div>
+                <label>setHasDataClass: </label>
+                <input type="checkbox" id="w612-setHasDataClass">
+              </div>
+              <div>
+                <label>setHasNoDataClass: </label>
+                <input type="checkbox" id="w612-setHasNoDataClass">
+              </div>
+              <div>
+                <label>setTransitionDuration: </label>
+                <input type="checkbox" id="w612-setTransitionDuration">
+              </div>
+              <div>
+                <label>setTransitionOpacity: </label>
+                <input type="checkbox" id="w612-setTransitionOpacity">
+              </div>
+              <div>
+                <label>setDataThreshold: </label>
+                <input type="checkbox" id="w612-setDataThreshold">
+              </div>
+              <div>
+                <label>setTooltipHasDataClass: </label>
+                <input type="checkbox" id="w612-setTooltipHasDataClass">
+              </div>
+              <div>
+                <label>setTooltipHasNoDataClass: </label>
+                <input type="checkbox" id="w612-setTooltipHasNoDataClass">
+              </div>
+            </fieldset>
+          </div>
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setIconOk: </label>
+                <input type="checkbox" id="w612-setIconOk">
+              </div>
+              <div>
+                <label>setIconCancel: </label>
+                <input type="checkbox" id="w612-setIconCancel">
+              </div>
+              <div>
+                <label>setMouseoutDuration: </label>
+                <input type="checkbox" id="w612-setMouseoutDuration">
+              </div>
+              <div>
+                <label>setTimelineTitle: </label>
+                <input type="checkbox" id="w612-setTimelineTitle">
+              </div>
+              <div>
+                <label>setTitleClass: </label>
+                <input type="checkbox" id="w612-setTitleClass">
+              </div>
+              <div>
+                <label>setSubtitleDateFormat: </label>
+                <input type="checkbox" id="w612-setSubtitleDateFormat">
+              </div>
+              <div>
+                <label>setSubheadingClass: </label>
+                <input type="checkbox" id="w612-setSubheadingClass">
+              </div>
+              <div>
+                <label>setLegendMarginLeft: </label>
+                <input type="checkbox" id="w612-setLegendMarginLeft">
+              </div>
+              <div>
+                <label>setLegendMarginTop: </label>
+                <input type="checkbox" id="w612-setLegendMarginTop">
+              </div>
+              <div>
+                <label>setLegendMarginH1: </label>
+                <input type="checkbox" id="w612-setLegendMarginH1">
+              </div>
+              <div>
+                <label>setLegendHeight: </label>
+                <input type="checkbox" id="w612-setLegendHeight">
+              </div>
+              <div>
+                <label>setLegendWidth: </label>
+                <input type="checkbox" id="w612-setLegendWidth">
+              </div>
+              <div>
+                <label>setTextHasData: </label>
+                <input type="checkbox" id="w612-setTextHasData">
+              </div>
+              <div>
+                <label>setTextHasNotData: </label>
+                <input type="checkbox" id="w612-setTextHasNotData">
+              </div>
+              <div>
+                <label>setLegendClass: </label>
+                <input type="checkbox" id="w612-setLegendClass">
+              </div>
+              <div>
+                <label>setLegendUnits: </label>
+                <input type="checkbox" id="w612-setLegendUnits">
+              </div>
+              <div>
+                <label>setDataFormatter: </label>
+                <input type="checkbox" id="w612-setDataFormatter">
+              </div>
+              <button type="button" id="w612-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Section 62 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section62">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 62")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 621 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w621">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("WIDGET")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 622 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w622">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setMinPct: </label>
+                <input type="number" id="w622-setMinPct" min="0" max="100" value="0">
+              </div>
+              <div>
+                <label>setSeparationAngle: </label>
+                <input type="number" id="w622-setSeparationAngle" min="0" max="360" value="0">
+              </div>
+              <div>
+                <label>setSourceSideClass: </label>
+                <input type="checkbox" id="w622-setSourceSideClass">
+              </div>
+              <div>
+                <label>setTargetSideClass: </label>
+                <input type="checkbox" id="w622-setTargetSideClass">
+              </div>
+              <div>
+                <label>setGroupWidth: </label>
+                <input type="checkbox" id="w622-setGroupWidth">
+              </div>
+              <div>
+                <label>setGroupPadding: </label>
+                <input type="checkbox" id="w622-setGroupPadding">
+              </div>
+              <div>
+                <label>setGroupPaddingPercent: </label>
+                <input type="checkbox" id="w622-setGroupPaddingPercent">
+              </div>
+              <div>
+                <label>setSourceColoredChords: </label>
+                <input type="checkbox" id="w622-setSourceColoredChords">
+              </div>
+              <div>
+                <label>setSubgroups: </label>
+                <input type="checkbox" id="w622-setSubgroups">
+              </div>
+              <div>
+                <label>setSubgroupWidth: </label>
+                <input type="checkbox" id="w622-setSubgroupWidth">
+              </div>
+              <div>
+                <label>setLabels: </label>
+                <input type="checkbox" id="w622-setLabels">
+              </div>
+              <div>
+                <label>setLabelMaxWidth: </label>
+                <input type="checkbox" id="w622-setLabelMaxWidth">
+              </div>
+              <div>
+                <label>setLabelHeightScale: </label>
+                <input type="checkbox" id="w622-setLabelHeightScale">
+              </div>
+            </fieldset>
+          </div>
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setLabelMaxDensity: </label>
+                <input type="checkbox" id="w622-setLabelMaxDensity">
+              </div>
+              <div>
+                <label>setLabelMinHeight: </label>
+                <input type="checkbox" id="w622-setLabelMinHeight">
+              </div>
+              <div>
+                <label>setLabelLeadersWidth: </label>
+                <input type="checkbox" id="w622-setLabelLeadersWidth">
+              </div>
+              <div>
+                <label>setLabelColour: </label>
+                <input type="checkbox" id="w622-setLabelColour">
+              </div>
+              <div>
+                <label>setShowLegend: </label>
+                <input type="checkbox" id="w622-setShowLegend">
+              </div>
+              <div>
+                <label>setSwapped: </label>
+                <input type="checkbox" id="w622-setSwapped">
+              </div>
+              <div>
+                <label>setPeriodNavigation: </label>
+                <input type="checkbox" id="w622-setPeriodNavigation">
+              </div>
+              <div>
+                <label>setLegendBgColor: </label>
+                <input type="checkbox" id="w622-setLegendBgColor">
+              </div>
+              <div>
+                <label>setLegendFontColor: </label>
+                <input type="checkbox" id="w622-setLegendFontColor">
+              </div>
+              <div>
+                <label>setDisplayLimits: </label>
+                <input type="checkbox" id="w622-setDisplayLimits">
+              </div>
+              <div>
+                <label>setPercentile: </label>
+                <input type="checkbox" id="w622-setPercentile">
+              </div>
+              <div>
+                <label>setclickToLockLegend: </label>
+                <input type="checkbox" id="w622-setclickToLockLegend">
+              </div>
+              <button type="button" id="w622-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Section 63 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section63">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 63")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 631 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w631">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("WIDGET")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 632 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w632">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setYaxisTitle (DEPRECATED): </label>
+                <input type="text" default="lon" id="w632-setYaxisTitle">
+              </div>
+              <div>
+                <label>setXaxisTitle (DEPRECATED): </label>
+                <input type="text" default="lat" id="w632-setXaxisTitle">
+              </div>
+              <div>
+                <label>setSeriesBy: </label>
+                <input type="checkbox" id="w632-setSeriesBy">
+              </div>
+              <div>
+                <label>setSize_title (DEPRECATED): </label>
+                <input type="text" default="count" id="w632-setSize_title">
+              </div>
+              <div>
+                <label>setLegend: </label>
+                <input type="checkbox" checked id="w632-setLegend">
+              </div>
+              <div>
+                <label>setDefaultformaterlegend: </label>
+                <input type="checkbox" checked id="w632-setDefaultformaterlegend">
+              </div>
+              <button type="button" id="w632-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+  </main>
+
+  <!-- Main 7 -->
+  <!-- ===================================================================== -->
+  <main class="lt-vapp-main" id="main7">
+
+    <!-- Section 71 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section71">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 71")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 711 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w711">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("WIDGET")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">DEPRECATED</div>
+      </article>
+
+      <!-- WIDGET 712 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w712">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setMargin: </label>
+                <input type="checkbox" id="w712-setMargin">
+              </div>
+              <button type="button" id="w712-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Section 72 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section72">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 72")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 721 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w721">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("WIDGET")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 722 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w722">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setIsFieldRelated: </label>
+                <input type="checkbox" id="w722-setIsFieldRelated">
+              </div>
+              <div>
+                <label>seUnits: </label>
+                <input type="text" id="w722-seUnits">
+              </div>
+              <button type="button" id="w722-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Section 73 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section73">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 73")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 731 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w731">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("WIDGET")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 732 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w732">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setLastIndex: </label>
+                <input type="checkbox" id="w732-setLastIndex">
+              </div>
+              <div>
+                <label>setAutoScale: </label>
+                <input type="checkbox" id="w732-setAutoScale" checked>
+              </div>
+              <div>
+                <label>setReverseScale: </label>
+                <input type="checkbox" id="w732-setReverseScale">
+              </div>
+              <div>
+                <label>setMinScaleVal: </label>
+                <input type="checkbox" id="w732-setMinScaleVal">
+              </div>
+              <div>
+                <label>setMaxScaleVal: </label>
+                <input type="checkbox" id="w732-setMaxScaleVal">
+              </div>
+              <div>
+                <label>setPrecission: </label>
+                <input type="checkbox" id="w732-setPrecission">
+              </div>
+              <div>
+                <label>setUnits: </label>
+                <input type="text" id="w732-setUnits">
+              </div>
+              <div>
+                <label>setLabelColor: </label>
+                <input type="checkbox" id="w732-setLabelColor" checked>
+              </div>
+              <div>
+                <label>setWhere: </label>
+                <input type="checkbox" id="w732-setWhere" checked>
+              </div>
+              <div>
+                <label>setMultiplier: </label>
+                <input type="checkbox" id="w732-setMultiplier">
+              </div>
+              <div>
+                <label>setNumberFormat: </label>
+                <input type="checkbox" id="w732-setNumberFormat">
+              </div>
+              <button type="button" id="w732-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+  </main>
+
+  <!-- Main 8 -->
+  <!-- ===================================================================== -->
+  <main class="lt-vapp-main" id="main8">
+
+    <!-- Section 81 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section81">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 81")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 812 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w812">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setLegend: </label>
+                <input type="checkbox" id="w812-setLegend" checked>
+              </div>
+              <div>
+                <label>setDefaultFormaterTooltip: </label>
+                <input type="checkbox" id="w812-setDefaultFormaterTooltip">
+              </div>
+              <div>
+                <label>setDefaultFormater: </label>
+                <input type="checkbox" id="w812-setDefaultFormater">
+              </div>
+              <div>
+                <label>setHighchartsProperty: </label>
+                <input type="checkbox" id="w812-setHighchartsProperty">
+              </div>
+              <button type="button" id="w812-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Section 82 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section82">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 82")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 821 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w821">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("WIDGET")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 822 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w822">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setValueExtent: </label>
+                <input type="checkbox" id="w822-setValueExtent">
+              </div>
+              <div>
+                <label>setDayLineColor: </label>
+                <input type="checkbox" id="w822-setDayLineColor">
+              </div>
+              <div>
+                <label>setMonthLineColor: </label>
+                <input type="checkbox" id="w822-setMonthLineColor">
+              </div>
+              <div>
+                <label>setMonthLabelColor: </label>
+                <input type="checkbox" id="w822-setMonthLabelColor">
+              </div>
+              <div>
+                <label>setLeyendMaxValColor: </label>
+                <input type="checkbox" id="w822-setLeyendMaxValColor">
+              </div>
+              <div>
+                <label>setLeyendMinValColor: </label>
+                <input type="checkbox" id="w822-setLeyendMinValColor">
+              </div>
+              <div>
+                <label>setWeekDayFontColor: </label>
+                <input type="checkbox" id="w822-setWeekDayFontColor">
+              </div>
+              <div>
+                <label>setLegendSelectorColor: </label>
+                <input type="checkbox" id="w822-setLegendSelectorColor">
+              </div>
+              <div>
+                <label>setWeekDaysLabels: </label>
+                <input type="checkbox" id="w822-setWeekDaysLabels">
+              </div>
+              <div>
+                <label>setMoveDaysLabels: </label>
+                <input type="checkbox" id="w822-setMoveDaysLabels">
+              </div>
+              <div>
+                <label>setMondayFirst: </label>
+                <input type="checkbox" id="w822-setMondayFirst">
+              </div>
+            </fieldset>
+          </div>
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setToBytes: </label>
+                <input type="checkbox" id="w822-setToBytes">
+              </div>
+              <div>
+                <label>setDisplayWeekDays: </label>
+                <input type="checkbox" id="w822-setDisplayWeekDays">
+              </div>
+              <div>
+                <label>setDisplayDayLegend: </label>
+                <input type="checkbox" id="w822-setDisplayDayLegend">
+              </div>
+              <div>
+                <label>setDisplayMark: </label>
+                <input type="checkbox" id="w822-setDisplayMark">
+              </div>
+              <div>
+                <label>setOpacity: </label>
+                <input type="checkbox" id="w822-setOpacity">
+              </div>
+              <div>
+                <label>setLeftmargin: </label>
+                <input type="checkbox" id="w822-setLeftmargin">
+              </div>
+              <div>
+                <label>setTopmargin: </label>
+                <input type="checkbox" id="w822-setTopmargin">
+              </div>
+              <div>
+                <label>setlabelmargin: </label>
+                <input type="checkbox" id="w822-setlabelmargin">
+              </div>
+              <div>
+                <label>setDisplayScale: </label>
+                <input type="checkbox" id="w822-setDisplayScale">
+              </div>
+              <div>
+                <label>setScaleMargin: </label>
+                <input type="checkbox" id="w822-setScaleMargin">
+              </div>
+              <div>
+                <label>setScaleheight: </label>
+                <input type="checkbox" id="w822-setScaleheight">
+              </div>
+              <div>
+                <label>setScalesize: </label>
+                <input type="checkbox" id="w822-setScalesize">
+              </div>
+              <div>
+                <label>setColorScale: </label>
+                <input type="checkbox" id="w822-setColorScale">
+              </div>
+              <div>
+                <label>setDataOperation: </label>
+                <input type="checkbox" id="w822-setDataOperation">
+              </div>
+              <div>
+                <label>setMinPercentilColor: </label>
+                <input type="checkbox" id="w822-setMinPercentilColor">
+              </div>
+              <div>
+                <label>setMaxPercentilColor: </label>
+                <input type="checkbox" id="w822-setMaxPercentilColor">
+              </div>
+              <div>
+                <label>setMinPercentil: </label>
+                <input type="checkbox" id="w822-setMinPercentil">
+              </div>
+              <div>
+                <label>setMaxPercentil: </label>
+                <input type="checkbox" id="w822-setMaxPercentil">
+              </div>
+              <div>
+                <label>setDiscardMethod: </label>
+                <input type="checkbox" id="w822-setDiscardMethod">
+              </div>
+              <div>
+                <label>setDisplaySelectors: </label>
+                <input type="checkbox" id="w822-setDisplaySelectors">
+              </div>
+              <button type="button" id="w822-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Section 83 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section83">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 83")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 831 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w831">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("WIDGET")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 832 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w832">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setColors: </label>
+                <input type="checkbox" id="w832-setColors">
+              </div>
+              <div>
+                <label>setItemsByRow: </label>
+                <input type="checkbox" id="w832-setItemsByRow">
+              </div>
+              <div>
+                <label>setIcons: </label>
+                <input type="checkbox" id="w832-setIcons">
+              </div>
+              <div>
+                <label>setHeight: </label>
+                <input type="checkbox" id="w832-setHeight">
+              </div>
+              <div>
+                <label>setRules: </label>
+                <input type="checkbox" id="w832-setRules">
+              </div>
+              <div>
+                <label>setIsPercent: </label>
+                <input type="checkbox" id="w832-setIsPercent" checked>
+              </div>
+              <button type="button" id="w832-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+  </main>
+
+  <!-- Main 9 -->
+  <!-- ===================================================================== -->
+  <main class="lt-vapp-main" id="main9">
+
+    <!-- Section 91 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section91">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 91")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 911 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w911">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("WIDGET")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">DEPRECATED</div>
+      </article>
+
+      <!-- WIDGET 912 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w912">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setLegendLength: </label>
+                <input type="checkbox" id="w912-setLegendLength">
+              </div>
+              <button type="button" id="w912-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Section 92 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section92">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 92")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 921 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w921">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("WIDGET")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 922 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w922">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setIsFieldsRelated: </label>
+                <input type="checkbox" id="w922-setIsFieldsRelated" checked>
+              </div>
+              <div>
+                <label>setUnit: </label>
+                <input type="text" id="w922-setUnit">
+              </div>
+              <button type="button" id="w922-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Section 93 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section93">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 93")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 931 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w931">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("WIDGET")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 932 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w932">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setMargin: </label>
+                <input type="checkbox" id="w932-setMargin">
+              </div>
+              <div>
+                <label>setNodeWidth: </label>
+                <input type="checkbox" id="w932-setNodeWidth">
+              </div>
+              <div>
+                <label>setNodePadding: </label>
+                <input type="checkbox" id="w932-setNodePadding">
+              </div>
+              <div>
+                <label>setNodeTextBackgroundFilterName: </label>
+                <input type="checkbox" id="w932-setNodeTextBackgroundFilterName">
+              </div>
+              <div>
+                <label>setNodeTextBackgroundFilterRef: </label>
+                <input type="checkbox" id="w932-setNodeTextBackgroundFilterRef">
+              </div>
+              <div>
+                <label>setGenerateNodeTextBackground: </label>
+                <input type="checkbox" id="w932-setGenerateNodeTextBackground">
+              </div>
+              <div>
+                <label>setLinkColor: </label>
+                <input type="checkbox" id="w932-setLinkColor">
+              </div>
+              <div>
+                <label>setCycles: </label>
+                <input type="checkbox" id="w932-setCycles">
+              </div>
+              <div>
+                <label>setPercentile: </label>
+                <input type="checkbox" id="w932-setPercentile">
+              </div>
+              <div>
+                <label>setWeightedPercentile: </label>
+                <input type="checkbox" id="w932-setWeightedPercentile">
+              </div>
+              <div>
+                <label>setTailName: </label>
+                <input type="checkbox" id="w932-setTailName">
+              </div>
+              <div>
+                <label>setBreadths: </label>
+                <input type="checkbox" id="w932-setBreadths">
+              </div>
+              <div>
+                <label>setAlign: </label>
+                <input type="checkbox" id="w932-setAlign">
+              </div>
+              <div>
+                <label>setIterations: </label>
+                <input type="checkbox" id="w932-setIterations">
+              </div>
+              <div>
+                <label>setInnerJoinOnInitialValue: </label>
+                <input type="checkbox" id="w932-setInnerJoinOnInitialValue">
+              </div>
+              <div>
+                <label>setStatsOnInitialValue: </label>
+                <input type="checkbox" id="w932-setStatsOnInitialValue">
+              </div>
+              <div>
+                <label>setWithNodeLabels: </label>
+                <input type="checkbox" id="w932-setWithNodeLabels">
+              </div>
+              <div>
+                <label>setWithLinkLabels: </label>
+                <input type="checkbox" id="w932-setWithLinkLabels">
+              </div>
+              <div>
+                <label>setWithNodeNames: </label>
+                <input type="checkbox" id="w932-setWithNodeNames">
+              </div>
+              <div>
+                <label>setWithInnerJoinToggle: </label>
+                <input type="checkbox" id="w932-setWithInnerJoinToggle">
+              </div>
+              <div>
+                <label>setWithStatsToggle: </label>
+                <input type="checkbox" id="w932-setWithStatsToggle">
+              </div>
+              <div>
+                <label>setInfoMargin: </label>
+                <input type="checkbox" id="w932-setInfoMargin">
+              </div>
+              <button type="button" id="w932-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+  </main>
+
+  <!-- Main 10 -->
+  <!-- ===================================================================== -->
+  <main class="lt-vapp-main" id="main10">
+
+    <!-- Section 101 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section101">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 101")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 1011 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w1011">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("WIDGET")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding" style="height: 800px;"></div>
+      </article>
+
+      <!-- WIDGET 1012 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w1012">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setDisplaySelectors: </label>
+                <input type="checkbox" id="w1012-setDisplaySelectors" checked>
+              </div>
+              <div>
+                <label>setShowLastEvent: </label>
+                <input type="checkbox" id="w1012-setShowLastEvent" checked>
+              </div>
+              <div>
+                <label>setShowFirstEvent: </label>
+                <input type="checkbox" id="w1012-setShowFirstEvent" checked>
+              </div>
+              <div>
+                <label>setHeadBackgroundColor: </label>
+                <input type="checkbox" id="w1012-setHeadBackgroundColor">
+              </div>
+              <div>
+                <label>setFontColor: </label>
+                <input type="checkbox" id="w1012-setFontColor">
+              </div>
+              <button type="button" id="w1012-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Section 102 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section102">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 102")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 1021 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w1021">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("WIDGET")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 1022 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w1022">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setColors: </label>
+                <input type="checkbox" id="w1022-setColors">
+              </div>
+              <div>
+                <label>setMaxDepth: </label>
+                <input type="checkbox" id="w1022-setMaxDepth">
+              </div>
+              <div>
+                <label>setIsValueCount: </label>
+                <input type="checkbox" id="w1022-setIsValueCount">
+              </div>
+              <div>
+                <label>setIsZoomEnabled: </label>
+                <input type="checkbox" id="w1022-setIsZoomEnabled">
+              </div>
+              <div>
+                <label>setZoom: </label>
+                <input type="checkbox" id="w1022-setZoom">
+              </div>
+              <div>
+                <label>setMinRadius: </label>
+                <input type="checkbox" id="w1022-setMinRadius">
+              </div>
+              <div>
+                <label>setMinCircleRadius: </label>
+                <input type="checkbox" id="w1022-setMinCircleRadius">
+              </div>
+              <div>
+                <label>setMaxRadius: </label>
+                <input type="checkbox" id="w1022-setMaxRadius">
+              </div>
+              <div>
+                <label>setSvgMargin: </label>
+                <input type="checkbox" id="w1022-setSvgMargin">
+              </div>
+              <div>
+                <label>setNumMaxElem: </label>
+                <input type="checkbox" id="w1022-setNumMaxElem">
+              </div>
+              <div>
+                <label>setFontColour: </label>
+                <input type="checkbox" id="w1022-setFontColour">
+              </div>
+              <div>
+                <label>setMaxFontSize: </label>
+                <input type="checkbox" id="w1022-setMaxFontSize">
+              </div>
+              <button type="button" id="w1022-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- Section 103 -->
+    <!-- =================================================================== -->
+    <section class="lt-vapp-section" id="section103">
+      <h3 class="lt-vapp-section-title">
+        <i class="lticon-analytics_presentation_statistics_graph"></i>
+        <span>${__("Section 103")}</span>
+        <span class="lt-vapp-section-collapser lticon-vapp_expand"></span>
+      </h3>
+
+      <!-- WIDGET 1031 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w1031">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("WIDGET")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding"></div>
+      </article>
+
+      <!-- WIDGET 1032 -->
+      <article class="lt-vapp-widget sm-12 md-12 lg-6 tv-12" id="w1032">
+        <header class="lt-vapp-widget-header">
+          <h3>${__("SETTINGS")}</h3>
+          <nav class="lt-vapp-widget-options">
+            <span class="lt-vapp-widget-collapser lticon-vapp_expand"></span>
+            <span class="lt-vapp-widget-menu-launcher lticon-thin-0069a_menu_hambuger_bold">
+              <ul>
+                <li class="lt-vapp-widget-action-capture">
+                  <i class="lticon-polaroid_picture_image_photo"></i>
+                  <span>${__("Screenshot")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-download">
+                  <i class="lticon-computer_laptop_download"></i>
+                  <span>${__("Download data")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-zoom">
+                  <i class="lticon-zoom_in"></i>
+                  <span>${__("Zoom")}</span>
+                </li>
+                <li class="lt-vapp-widget-action-gotosearch">
+                  <i class="lticon-search_find_zoom2"></i>
+                  <span>${__("Go to query")}</span>
+                </li>
+              </ul>
+            </span>
+          </nav>
+        </header>
+        <div class="lt-vapp-widget-graphic inner-padding">
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setLayout: </label>
+                <select id="w1032-setLayout">
+                  <option value="relaxed" selected>${__("RELAXED")}</option>
+                  <option value="ordered" >${__("ORDERED")}</option>
+                  <option value="squarified" >${__("SQUARIFIED")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setRelaxationInitializer: </label>
+                <select id="w1032-setRelaxationInitializer">
+                  <option value="fisheye" selected>${__("FISHEYE")}</option>
+                  <option value="blackhole" >${__("BLACKHOLE")}</option>
+                  <option value="ordered" >${__("ORDERED")}</option>
+                  <option value="squarified" >${__("SQUARIFIED")}</option>
+                  <option value="random" >${__("RANDOM")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setLegendVal: </label>
+                <input type="checkbox" id="w1032-setLegendVal">
+              </div>
+              <div>
+                <label>setLegendPercentage: </label>
+                <input type="checkbox" id="w1032-setLegendPercentage">
+              </div>
+              <div>
+                <label>setAnnimation: </label>
+                <input type="checkbox" id="w1032-setAnnimation" checked>
+              </div>
+              <div>
+                <label>setAttributionLogo: </label>
+                <input type="checkbox" id="w1032-setAttributionLogo">
+              </div>
+              <div>
+                <label>setShowZero: </label>
+                <input type="checkbox" id="w1032-setShowZero">
+              </div>
+              <div>
+                <label>setOperation: </label>
+                <select id="w1032-setOperation">
+                  <option value="none" selected>${__("NONE")}</option>
+                  <option value="log" >${__("LOGARITHMIC")}</option>
+                  <option value="atan" >${__("ARCTANGENT")}</option>
+                  <option value="pow.75" >${__("POWER 0.75")}</option>
+                  <option value="pow.33" >${__("POWER 0.33")}</option>
+                  <option value="pow.25" >${__("POWER 0.25")}</option>
+                  <option value="sqrt" >${__("SQUARE ROOT")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setValueFormat: </label>
+                <select id="w1032-setValueFormat">
+                  <option value="false" selected>${__("FALSE")}</option>
+                  <option value='["toBytes"]' >${__("TO BYTES")}</option>
+                  <option value='["secondsToHMS"]' >${__("SECONDS TO H:M:S")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setScrollZoom: </label>
+                <input type="checkbox" id="w1032-setScrollZoom">
+              </div>
+              <div>
+                <label>setMaxLevelItems: </label>
+                <input type="checkbox" id="w1032-setMaxLevelItems">
+              </div>
+              <div>
+                <label>setMaxItems: </label>
+                <input type="checkbox" id="w1032-setMaxItems">
+              </div>
+              <div>
+                <label>setColorScaleRelativeTo: </label>
+                <select id="w1032-setColorScaleRelativeTo">
+                  <option value="all" selected>${__("ALL")}</option>
+                  <option value="siblings">${__("SIBLINGS")}</option>
+                  <option value="level">${__("LEVEL")}</option>
+                </select>
+              </div>
+            </fieldset>
+          </div>
+          <div class="lt-form-column varemo-options">
+            <fieldset class="lt-form-group">
+              <div>
+                <label>setColorScale: </label>
+                <select id="w1032-setColorScale">
+                  <option value="Default" selected>${__("DEFAULT")}</option>
+                  <option value="Artic">${__("ARCTIC")}</option>
+                  <option value="Boreal">${__("BOREAL")}</option>
+                  <option value="Bruise">${__("BRUISE")}</option>
+                  <option value="Sunset">${__("SUNSET")}</option>
+                  <option value="Antartic">${__("ANTARTIC")}</option>
+                  <option value="Sky Burst">${__("SKY BURST")}</option>
+                  <option value="Rioja Lightning">${__("RIOJA LIGHTNING")}</option>
+                  <option value="Kamehameha">${__("KAMEHAMEHA")}</option>
+                  <option value="Alien">${__("ALIEN")}</option>
+                  <option value="Rainbow">${__("RAINBOW")}</option>
+                </select>
+              </div>
+              <div>
+                <label>setExposeCurrentNode: </label>
+                <input type="checkbox" id="w1032-setExposeCurrentNode">
+              </div>
+              <div>
+                <label>setDataLabels: </label>
+                <input type="checkbox" id="w1032-setDataLabels">
+              </div>
+              <div>
+                <label>setKeysOrder: </label>
+                <input type="checkbox" id="w1032-setKeysOrder">
+              </div>
+              <div>
+                <label>setFlatSignals: </label>
+                <input type="checkbox" id="w1032-setFlatSignals">
+              </div>
+              <div>
+                <label>setEnableDetailView: </label>
+                <input type="checkbox" id="w1032-setEnableDetailView">
+              </div>
+              <div>
+                <label>setEnableColorScale: </label>
+                <input type="checkbox" id="w1032-setEnableColorScale">
+              </div>
+              <div>
+                <label>setEnableSizeSelect: </label>
+                <input type="checkbox" id="w1032-setEnableSizeSelect">
+              </div>
+              <div>
+                <label>setEnablePartitioning: </label>
+                <input type="checkbox" id="w1032-setEnablePartitioning">
+              </div>
+              <div>
+                <label>setPartitioningBorder: </label>
+                <input type="checkbox" id="w1032-setPartitioningBorder">
+              </div>
+              <div>
+                <label>setDarkenFlatParents: </label>
+                <input type="checkbox" id="w1032-setDarkenFlatParents">
+              </div>
+              <div>
+                <label>setDarkenFlatParentsColor: </label>
+                <input type="checkbox" id="w1032-setDarkenFlatParentsColor">
+              </div>
+              <div>
+                <label>setDarkenFlatParentsHoveredColor: </label>
+                <input type="checkbox" id="w1032-setDarkenFlatParentsHoveredColor">
+              </div>
+              <div>
+                <label>setColorSelection: </label>
+                <input type="checkbox" id="w1032-setColorSelection">
+              </div>
+              <div>
+                <label>setSizeSelection: </label>
+                <input type="checkbox" id="w1032-setSizeSelection">
+              </div>
+              <button type="button" id="w1032-button">Refresh</button>
+            </fieldset>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+  </main>
+  <div class="lt-vapp-overlay"></div>
+</div>

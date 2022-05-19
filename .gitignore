@@ -1,0 +1,7 @@
+/node_modules
+/certs
+/dist
+/tmp
+.DS_Store
+/.idea
+.env
