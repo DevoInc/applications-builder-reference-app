@@ -1,4 +1,12 @@
-## Devo Application Builder Reference Model
+# 🚨 Deprecated 🚨
+
+This package has been deprecated in favor of `DevoInc/App-Developer-Kit`.
+
+Therefore, this repository will serve as archive and will be no longer supported.
+
+You can access the new project repository here: https://github.com/DevoInc/App-Developer-Kit
+
+# Devo Application Builder Reference Model
 This reference application containing all the widgets and UI elements available in devo application builder framework. 
 This application will be used as reference to test all framework functionalities still work and for learning pourposes.
 
