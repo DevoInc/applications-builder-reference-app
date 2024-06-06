@@ -11,7 +11,7 @@ export const addRequests = () => {
     group every 30m by collector
     select count() as count`,
       delay: 2000,
-      dates: dateRange.fromNow(1, 'day'),
+      dates: dateRange.fromNow(2, 'day'),
     })
   );
   
@@ -28,7 +28,7 @@ export const addRequests = () => {
       select last(lon) as lon
       select count() as count`,
       delay: 1000,
-      dates: dateRange.fromNow(1, 'day'),
+      dates: dateRange.fromNow(2, 'day'),
     })
   );
   
@@ -45,7 +45,7 @@ export const addRequests = () => {
       select last(lon) as lon
       select count() as count`,
       delay: 1000,
-      dates: dateRange.fromNow(1, 'day'),
+      dates: dateRange.fromNow(2, 'day'),
     })
   );
   
@@ -57,7 +57,7 @@ export const addRequests = () => {
       group every 30m by country every 0
       select count() as count`,
       delay: 1000,
-      dates: dateRange.fromNow(1, 'day'),
+      dates: dateRange.fromNow(2, 'day'),
     })
   );
   
@@ -67,7 +67,7 @@ export const addRequests = () => {
       query: `from siem.logtrust.collector.counter
       select eventdate, collector as method, bytes as timeTaken`,
       delay: 1000,
-      dates: dateRange.fromNow(1, 'hour'),
+      dates: dateRange.fromNow(2, 'day'),
     })
   );
   
@@ -88,7 +88,7 @@ export const addRequests = () => {
       last(lon) as lon,
       last(coords) as coords`,
       delay: 1000,
-      dates: dateRange.fromNow(1, 'hour'),
+      dates: dateRange.fromNow(2, 'day'),
     })
   );
   
@@ -98,10 +98,10 @@ export const addRequests = () => {
       query: `from siem.logtrust.web.activity 
       select replaceall(srcHost, "[", "") as hostTmp,
       replaceall(hostTmp, "]", "") as host,
-      ip6(host) as ip group by ip 
+      ip4(host) as ip group by ip 
       select count() as count`,
       delay: 1000,
-      dates: dateRange.fromNow(1, 'hour'),
+      dates: dateRange.fromNow(2, 'day'),
     })
   );
   
@@ -111,10 +111,11 @@ export const addRequests = () => {
       query: `from siem.logtrust.web.activity 
       select replaceall(srcHost, "[", "") as hostTmp,
       replaceall(hostTmp, "]", "") as host,
-      ip6(host) as ip group by ip 
+      ip4(host) as ip group by ip 
+      where isnotnull(ip)
       select count() as count`,
       delay: 1000,
-      dates: dateRange.fromNow(1, 'hour'),
+      dates: dateRange.fromNow(2, 'day'),
     })
   );
   
@@ -125,7 +126,7 @@ export const addRequests = () => {
     group every 1d
     select count() as count`,
       delay: 1000,
-      dates: dateRange.fromNow(4, 'day'),
+      dates: dateRange.fromNow(2, 'day'),
     })
   );
   
@@ -135,10 +136,12 @@ export const addRequests = () => {
       query: `from siem.logtrust.web.activity 
       select replaceall(srcHost, "[", "") as hostTmp,
       replaceall(hostTmp, "]", "") as host,
-      ip6(host) as ip group by ip, method 
+      str(ip4(host)) as ip
+      where isnotnull(ip)
+      group by ip, method 
       select count() as count`,
       delay: 1000,
-      dates: dateRange.fromNow(1, 'day'),
+      dates: dateRange.fromNow(2, 'day'),
     })
   );
 
@@ -159,7 +162,7 @@ export const addRequests = () => {
       select last(to_lon) as to_lon
       select count() as count`,
       delay: 1000,
-      dates: dateRange.fromNow(1, 'day'),
+      dates: dateRange.fromNow(2, 'day'),
     })
   );
   
