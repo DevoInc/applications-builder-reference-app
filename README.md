@@ -30,3 +30,6 @@ https://devoinc.atlassian.net/wiki/spaces/LI/pages/151388199/Update+guide
 - Tab8: pies, heatcalendar, monitoring
 - Tab9: punchcard, rag, sankey
 - Tab10: timeheatmap, tree, voronoi
+
+## Test with real data
+By default the app is configured to get mocked data, if you want to use real queries you should set the variable mocked as false in src/data/requests.js.
