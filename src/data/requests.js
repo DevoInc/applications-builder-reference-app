@@ -1,7 +1,7 @@
 import { addRequests } from "./requestsReal";
 import { addRequests as addRequestsMocked } from "./requestsMocked";
 
-const mocked = false;
+const mocked = true;
 
 if(mocked) {
   addRequestsMocked();
